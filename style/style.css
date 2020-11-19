@@ -1,5 +1,17 @@
-html {
+body {
+    font-family: sans-serif;
     background-color: lightgrey;
+    background-image: url("/images/stonebackground.jpg");
+}
+
+div {
+    margin: 15px;
+}
+
+
+
+h2 {
+    margin: 0px;
 }
 
 .personal-info {
@@ -8,4 +20,66 @@ html {
 
 .book_title {
     font-style: italic;
+}
+
+#grid-container {
+    display: grid;
+    width: 900px;
+    border: 2px solid gray;
+    background-color: rgba(255, 255, 255, 0.493);
+    margin: auto;
+    box-shadow: 6px 6px 4px rgba(0, 0, 0, 0.288);
+    grid-template-columns: auto auto auto;  
+}
+
+#picture_div {
+    padding: 15px;
+    justify-content: center;
+    text-align: center;
+    
+    background-color: white;
+    grid-column: 1 / 2;
+    grid-row: 2 / 5;
+    box-shadow: 4px 4px 2px rgba(0, 0, 0, 0.288);
+}
+
+#name_header {
+    grid-column: 1 / 4;
+    grid-row: 1 / 2;
+    text-align: center;
+    margin: 0px
+}
+
+#personal_info_div {
+    grid-column: 2 / 4;
+    grid-row: 2 / 4;
+    margin-bottom: 5px;
+    
+    vertical-align: center;
+}
+
+.section_header {
+    display: block;
+    text-align: center;
+    border-bottom: 2px solid gray;
+    border-radius: 5px 5px 0px 0px;
+    padding: 5px;
+    background-color: rgba(228, 228, 228, 0.705);
+}
+
+#books_div {
+    grid-column: 2 / 4;
+    grid-row: 4 / 5;
+    
+}
+
+.section_div {
+    background-color: white;
+    border: 2px solid gray;
+    border-radius: 5px;
+    box-shadow: 4px 4px 2px rgba(0, 0, 0, 0.288);
+}
+
+#haiku_div {
+    grid-column: 1 / 4;
 }
