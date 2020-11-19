@@ -115,3 +115,37 @@ a:visited {
 a:hover {
     text-decoration: underline;
 }
+
+table {
+    border: 1px solid black;
+}
+
+td, th {
+    border: 1px solid black;
+    background-color: white;
+    vertical-align: top;
+    width: 160px;
+}
+
+th {
+    background-color: rgb(228, 247, 255);
+}
+
+.schedule_time {
+    background-color: rgb(228, 247, 255);
+    width: 50px;
+    text-align: right;
+    font-weight: bold;
+}
+
+.work_td {
+    background-color: rgb(147, 152, 223);
+}
+
+.cs2370 {
+    background-color: lightcoral;
+}
+
+.cs2550 {
+    background: rgb(70, 214, 207);
+}
