@@ -1,0 +1,11 @@
+html {
+    background-color: lightgrey;
+}
+
+.personal-info {
+    font-weight: bold;
+}
+
+.book_title {
+    font-style: italic;
+}
