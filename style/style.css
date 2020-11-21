@@ -149,3 +149,14 @@ th {
 .cs2550 {
     background: rgb(70, 214, 207);
 }
+
+.contentp {
+    display: block;
+    margin: 5px;
+    padding: 5px;
+}
+
+#haiku {
+    text-align: center;
+    font-style: italic;
+}
